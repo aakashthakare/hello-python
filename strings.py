@@ -33,3 +33,7 @@ Quotes!
 print(multiLineStringWithoutSlashN)
 
 print("Unescaped : \test\new | Escaped : \\test\\new")
+
+print('ABC'.lower())
+print('abc'.upper())
+print('abc {0} {1}'.format("1" * 3, "2"))
